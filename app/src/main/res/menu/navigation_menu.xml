@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Inicio"
+        android:icon="@drawable/ic_home"
+        android:title="Inicio"></item>
+
+    <item
+        android:id="@+id/Recibos"
+        android:icon="@drawable/ic_library"
+        android:title="Recibos de sueldo"></item>
+
+
+    <item
+        android:id="@+id/Agregar"
+        android:icon="@drawable/newspaper"
+        android:title=""></item>
+
+
+    <item
+        android:id="@+id/Apps"
+        android:icon="@drawable/ic_app_registration"
+        android:title="Más"></item>
+
+    <item
+        android:id="@+id/Perfil"
+        android:icon="@drawable/ic_person"
+        android:title="Mi Perfil"></item>
+
+</menu>

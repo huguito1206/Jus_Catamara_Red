@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="310dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:textColorHint="#B8B6B6"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/edt_PrimeraClaveDialog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:hint="Nueva Contraseña"
+            android:inputType="textPassword"
+            android:textColor="#000000">
+
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="310dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:textColorHint="#B8B6B6"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/edt_SegundaClaveDialog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:hint="Reingrese su nueva Contraseña"
+            android:inputType="textPassword"
+            android:textColor="#000000">
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/BtnCambiarClave"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="Cambiar Clave"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/btn_fondo_azul"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
+
+
+

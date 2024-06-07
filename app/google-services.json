@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "890773854449",
+    "project_id": "red-jus-catamarca",
+    "storage_bucket": "red-jus-catamarca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890773854449:android:873a8bbb8b34442b43f150",
+        "android_client_info": {
+          "package_name": "com.example.juscatamarared"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmbliL2icdJ0DTsnMgpdtvKtqSMQNGpM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890773854449:android:74b6fbda986ea49543f150",
+        "android_client_info": {
+          "package_name": "com.example.redjuscatamarca"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmbliL2icdJ0DTsnMgpdtvKtqSMQNGpM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

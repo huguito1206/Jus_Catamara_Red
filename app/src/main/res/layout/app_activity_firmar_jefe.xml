@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.example.juscatamarared.Clases.SignatureView
+        android:id="@+id/signatureView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FIRMA DEL SUPERIOR"
+        android:textColor="@color/ColorProgress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        >
+    </TextView>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/clearSignatureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_cleaning_services"
+        app:backgroundTint="@color/purple_700"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"/>
+
+
+
+    <Button
+        android:id="@+id/btnAprobar_tramite_firma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APROBAR"
+        android:background="@color/verde"
+        android:layout_marginTop="450dp"
+        android:layout_centerHorizontal="true">
+    </Button>
+
+    <Button
+        android:id="@+id/btnRechazar_tramite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RECHAZAR"
+        android:background="@color/red"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="450dp"
+        >
+    </Button>
+
+
+</RelativeLayout>

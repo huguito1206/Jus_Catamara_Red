@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f7f7f7">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="75"
+        android:orientation="horizontal"
+        android:background="#CAD3CB">>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/ColorProgress">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:text="FORMULARIO DE SOLICITUD DE TRÁMITES"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+
+
+
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal"
+                                    android:layout_marginTop="5dp">
+
+
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:gravity="center">
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="LICENCIAS"
+                                                android:textStyle="bold"
+                                                android:textSize="17dp">
+                                            </TextView>
+                                        </LinearLayout>
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="ORDINARIAS"
+                                            android:layout_marginStart="15dp"
+                                            android:textColor="@color/black"
+                                            >
+                                        </TextView>
+
+                                        <RadioGroup
+                                            android:id="@+id/RadioGroup_estados"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical">
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_FeriaEnero"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="FERIA DE ENERO"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_FeriaJulio"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="0dp"
+                                                android:text="FERIA DE JULIO"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_Lao"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="LAO (POLICÍA JUDICIAL)"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="EXTRAORDINARIAS"
+                                                android:layout_marginStart="15dp"
+                                                android:textColor="@color/black"
+                                                android:layout_marginTop="8dp">
+                                            </TextView>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_Maternidad"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="MATERNIDAD"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_Enfermedad"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="0dp"
+                                                android:text="ENFERMEDAD"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_AtencionFamiliar"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="ATENCIÓN FAMILIAR"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_Matrimonio"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="MATRIMONIO"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_ActCientif"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="0dp"
+                                                android:text="ACT. CIENT.CUIL. O DEP."
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_Examen"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="EXÁMENES"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:gravity="center"
+                                                android:layout_marginTop="15dp">
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="JUSTIFICACIÓN DE INASISTENCIAS"
+                                                    android:textStyle="bold"
+                                                    android:textSize="17dp">
+                                                </TextView>
+                                            </LinearLayout>
+
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_NacVaron"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="NAC. HIJO (AG. VARÓN)"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_CasamientoHijo"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="0dp"
+                                                android:text="CASAMIENTO DE HIJO"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_FallecimientoPariente"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="FALLECIMIENTO DE PARIENTE"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_RazonParticular"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="RAZONES PARTICULARES"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_RazonEspecial"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="0dp"
+                                                android:text="RAZONES ESPECIALES"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_Adopcion"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="ADOPCIÓN"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_ParticipacionComicios"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="PARTICIPACIÓN EN COMiCIOS ELECTORALES"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_DonacionSangre"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="0dp"
+                                                android:text="DONACIÓN DE SANGRE"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_FuerzaMayor"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="FUERZA MAYOR"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_Tardanza"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="TARDANZA"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_LeyCultos"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="0dp"
+                                                android:text="LEY NAC. DE CULTOS"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_FrancoCompensatorio"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="FRANCO COMPENSATORIO"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_gravity="center"
+                                                android:gravity="center"
+                                                android:layout_marginTop="15dp">
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="OTROS TRÁMITES"
+                                                    android:textStyle="bold"
+                                                    android:textSize="17dp">
+                                                </TextView>
+                                            </LinearLayout>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_ProblemasReloj"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="PROBLEMAS CON EL RELOJ"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_RetiroTrabajo"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="0dp"
+                                                android:text="RETIRO DEL TRABAJO"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_PresentacionDocumentacion"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="PRESENTACIÓN DE DOCUMENTACION"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_ComisionServicio"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="COMISIÓN DE SERVICIO"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_PresentacionInforme"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="0dp"
+                                                android:text="PRESENTACIÓN DE INFORME"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_SolicitudInforme"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="SOLICITUD DE INFORME"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_SuspencionLicencia"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="SUSPENCION DE LICENCIA"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_ProrrogaLicencia"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="0dp"
+                                                android:text="PRORROGA DE LICENCIA"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+                                            <RadioButton
+                                                android:id="@+id/RadioButton_Lactancia"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="LACTANCIA"
+                                                android:textColor="#FF0000"
+                                                android:textSize="12dp"
+                                                android:textStyle="bold">
+                                            </RadioButton>
+
+
+
+                                        </RadioGroup>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:layout_marginTop="15dp"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="DETALLE DE LOS DIAS"
+                                        android:textStyle="bold"
+                                        android:textSize="17dp">
+                                    </TextView>
+
+                                    <CheckBox
+                                        android:id="@+id/checkBox_fechaHoy"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Fecha de Hoy" />
+
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal"
+                                    android:layout_marginTop="5dp">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="horizontal"
+                                            android:gravity="center">
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="Desde">
+                                            </TextView>
+
+                                            <EditText
+                                                android:id="@+id/Edt_FechaDesde"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:hint="FECHA"
+                                                android:layout_marginStart="5dp"
+                                                android:focusable="false" ></EditText>
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="Hasta"
+                                                android:layout_marginStart="20dp">
+                                            </TextView>
+
+                                            <EditText
+                                                android:id="@+id/Edt_FechaHasta"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:hint="FECHA"
+                                                android:layout_marginStart="5dp"
+                                                android:focusable="false" ></EditText>
+
+                                        </LinearLayout>
+
+
+
+
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:layout_marginTop="15dp">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="MOTIVO/CAUSA/RAZÓN/EXPLICACIÓN"
+                                        android:textStyle="bold"
+                                        android:textSize="17dp">
+                                    </TextView>
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal"
+                                    android:layout_marginTop="5dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical">
+
+                                        <EditText
+                                            android:id="@+id/Edt_Explicacion"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:hint="ESCRIBIR AQUÍ"></EditText>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:layout_marginTop="15dp">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="EN CASO DE ADJUNTAR DOCUMENTACIÓN RESPALDATORIA, PUEDE CARGAR AQUÍ"
+                                        android:textStyle="bold"
+                                        android:textSize="17dp"
+                                        android:gravity="center">
+                                    </TextView>
+
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:id="@+id/camera_capture_document"
+                                        android:layout_width="57dp"
+                                        android:layout_height="49dp"
+                                        android:background="@drawable/ic_image"
+                                        >
+                                    </ImageView>
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center">
+
+                                        <ImageView
+                                            android:id="@+id/imageView_document"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+
+                                            />
+
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+
+
+
+
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Firma del agente"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:gravity="center">
+        </TextView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp">
+
+            <com.example.juscatamarared.Clases.SignatureView
+                android:id="@+id/signatureViewAgente"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@android:color/transparent" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/border_shape" />
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/Btn_EnviarFormulario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ENVIAR SOLICITUD"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:background="@color/ColorProgress"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

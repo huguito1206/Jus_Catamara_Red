@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#C3C3C3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FORMULARIO DE SOLICITUD DE TRAMITES"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PODER JUDICIAL DE CATAMARCA - SECRETARIA DE PERSONAL"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="14dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/txv_legajo_tramite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LEGAJO"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="14dp"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/txv_NombreApellido_tramite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NOMBRE"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="14dp"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/txv_Dependencia_tramite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DEPENDENCIA LABORAL"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="14dp"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/txv_Descripcion_tramite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descripcion del trámite"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="14dp"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/txv_DetalleDias_tramite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Detalle de los dias"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="14dp"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/txv_Explicacion_tramite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RAZON"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="14dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/txv_Domentacion_tramite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DOCUMENTACION RESPALDATORIA"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="14dp"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="5dp">
+
+            <Button
+                android:id="@+id/btnDescargar_tramite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="descargar pdf"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_fondo_azul"
+                >
+
+            </Button>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp">
+
+            <CheckBox
+                android:id="@+id/checkBox_AfectaFuncionamiento_tramite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO AFECTA EL NORMAL FUNCIONAMIENTO DEL AREA" />
+
+
+            <CheckBox
+                android:id="@+id/checkBox_NO_AfectaFuncionamiento_tramite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SI AFECTA EL NORMAL FUNCIONAMIENTO DEL AREA"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnAprobar_tramite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIGUIENTE"
+                android:background="@color/verde">
+
+            </Button>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/TV_descripcionCorreoRC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15dp"
+        android:textColor="@color/ColorProgress"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textAlignment="center">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:inputType="number"
+            android:maxLength="1"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:background="@drawable/edittext_border"
+            android:layout_marginRight="10dp"/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/editText1"
+            android:inputType="number"
+            android:maxLength="1"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:background="@drawable/edittext_border"
+            android:padding="8dp"
+            android:layout_marginRight="10dp"
+            android:outlineAmbientShadowColor="@android:color/black"
+            android:outlineSpotShadowColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/editText2"
+            android:inputType="number"
+            android:maxLength="1"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:background="@drawable/edittext_border"
+            android:padding="8dp"
+            android:outlineAmbientShadowColor="@android:color/black"
+            android:outlineSpotShadowColor="@android:color/black"
+            android:layout_marginRight="10dp"/>
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/editText3"
+            android:inputType="number"
+            android:maxLength="1"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:background="@drawable/edittext_border"
+            android:padding="8dp"
+            android:outlineAmbientShadowColor="@android:color/black"
+            android:outlineSpotShadowColor="@android:color/black"
+            android:layout_marginRight="10dp"/>
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/editText3"
+            android:inputType="number"
+            android:maxLength="1"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:background="@drawable/edittext_border"
+            android:padding="8dp"
+            android:outlineAmbientShadowColor="@android:color/black"
+            android:outlineSpotShadowColor="@android:color/black"
+            android:layout_marginRight="10dp"/>
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/editText3"
+            android:inputType="number"
+            android:maxLength="1"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:background="@drawable/edittext_border"
+            android:padding="8dp"
+            android:outlineAmbientShadowColor="@android:color/black"
+            android:outlineSpotShadowColor="@android:color/black"
+            />
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/TvSiguienteRC"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="Siguiente  >"
+            android:textAlignment="center"
+            android:textColor="@color/ColorProgress"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</LinearLayout>
